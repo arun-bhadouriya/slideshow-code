@@ -14,9 +14,7 @@ header{
     width: 100%;
     box-shadow: 5px 2px 5px #888888;
 }
-.logo{
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fimage-vector%2Ffh-hf-font-designs-logo-icons-1542161006&psig=AOvVaw2LZRIqp5oXVbOLrAaD83_-&ust=1664623754860000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPiFu_O0vPoCFQAAAAAdAAAAABAD");
-}
+
 .more-options{
     display: flex;
     width: 30%;
@@ -30,7 +28,7 @@ header{
     cursor: pointer;
 }
 header .logo{
-    background-image: url(/images.jpg);
+    background-image: url(images.jpg);
     width: 40px;
     height:38px;
     margin-top: 10px;
