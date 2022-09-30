@@ -1,0 +1,108 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/* header styles */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif; 
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 5px 2px 5px #888888;
+}
+.logo{
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fimage-vector%2Ffh-hf-font-designs-logo-icons-1542161006&psig=AOvVaw2LZRIqp5oXVbOLrAaD83_-&ust=1664623754860000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPiFu_O0vPoCFQAAAAAdAAAAABAD");
+}
+.more-options{
+    display: flex;
+    width: 30%;
+    list-style-type: none;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+header .logo{
+    background-image: url(/images.jpg);
+    width: 40px;
+    height:38px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 100%;
+    background-size: contain;
+
+}
+header .login{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-right: 10px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.more-options li{
+    width: 100%;
+    text-align: center;
+}
+
+/* images zoomin zoom out styles */
+#queue{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+}
+#queue>h3{
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    border: 1px black solid;
+}
+#panel{
+    display: flex;
+    flex: 3;
+    height: 350px;
+    width: 30%;
+    background-size: cover;
+    justify-content: space-between;
+    padding: 0 30px;
+    font-weight:100;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+#panel a{
+    color: aliceblue;
+    margin: 1.1em;
+    display: none;
+}
+#panel:hover a{
+    display: block;
+}
+#panel:hover{
+    flex:5;
+    transition:all 0.4s ease-in-out;
+}
