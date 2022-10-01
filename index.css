@@ -78,7 +78,7 @@ header .login{
 }
 #panel{
     display: flex;
-    /* flex: 4; */
+    flex: 3;
     height: 350px;
     width: 350px;
     background-size: cover;
@@ -110,16 +110,13 @@ header .login{
 .panel1{
     border-radius: 4% 0 0 4%;
     border-right: none;
-    flex: 3;
 }
 .panel2{
     border-left: none;
     border-right: none;
     border: none;
-    flex: 3;
 }
 .panel3{
     border-radius: 0 4% 4% 0;
     border-left: none;
-    flex: 5;
 }
