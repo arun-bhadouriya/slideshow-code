@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 /* header styles */
 body{
@@ -65,22 +63,23 @@ header .login{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     padding: 10px;
-    width: 70%;
+    width: 85%;
     margin: auto;
 }
 .container{
     display: flex;   
     margin: auto;
-    width: 70%;
+    width: 85%;
+    height: 50%;
     border: 1px black solid;
-    border-radius: 1em;
+    border-radius: 1.20em;
     box-sizing: border-box;
 }
 #panel{
     display: flex;
-    flex: 3;
+    flex: 1;
     height: 350px;
-    width: 350px;
+    /* width: 100%; */
     background-size: cover;
     justify-content: space-between;
     padding: 0 30px;
@@ -89,7 +88,7 @@ header .login{
     font-size: 15px;
     letter-spacing: 1.5px;
     background-repeat: no-repeat;
-    background-size: 450px 450px;
+    background-size: 581px 581px;
 }
 #panel a{
     color: aliceblue;
@@ -98,8 +97,9 @@ header .login{
 }
 
 #panel:hover{
-    flex:6;
-    transition:all 0.3s ease-in-out;
+    flex:2;
+    /* background-size: ; */
+    transition:all 0.2s ease-in;
 }
 #panel:hover a{
     display: block;
@@ -120,3 +120,26 @@ header .login{
     border-radius: 0 4% 4% 0;
     border-left: none;
 }
+
+@media only screen and (max-width: 1000px) {   
+    #panel{
+        background-size: 500px 500px;
+        padding: 0 0.5em;
+    }
+    #panel:hover{
+        transition: all 0.1s;
+    }
+    header{
+        height: 60px;
+    }
+    .more-options{
+        width: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    #panel{
+        background-size: 400px 400px;
+        padding: 0 0.5em;
+    }
+  }
